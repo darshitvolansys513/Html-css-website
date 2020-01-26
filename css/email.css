@@ -1,0 +1,112 @@
+.compose{
+  background-color: #6a802a;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20%;
+    box-shadow: 1px 1px 1px 1px  grey;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: 800;
+  
+}
+.navbar{
+    background-color: #4CAF50;
+    width: 100%;
+    height: 7vh;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+.searchbar{
+    width:210px;
+    height: 30px;
+    border: none;
+    margin-left:70%;
+    margin-top:0.5%;
+    font-size: 20px;
+    color: grey;
+    border-radius: 2px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color:grey;
+  position: relative;
+  left: 10px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 18px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4CAF50;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  
+  .tableEmail{
+    width:99.8vw;
+    height: 95.5vh;
+    border-collapse: collapse;
+  }
+  .textTable{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .textTable:hover{
+    background-color: #4CAF50;
+    color: #ffff;
+  }
+  .inboxTable {
+    text-align: center;
+    color: #87b8e6;
+  }
+  .innerTable{
+    width:74.3vw;
+    height:60vh;
+    border-collapse: collapse;
+    float: right;
+    border-color: #558b2f;
+  }
+  .checkbox{
+    width: 18px;
+    height:18px;
+    text-align: center;
+    margin-left: 40%;   
+  }
+  .checkbox2{
+    width: 18px;
+    height:18px;
+    text-align: center;
+    margin-left: 10%;   
+  }
+  .tableText{
+    font-size: 20px;
+    
+  }
+  .delete{
+    margin-top: -33%;
+  }
+  .iframe{
+    position: absolute;
+    top:360px;
+    left:70%;
+  }

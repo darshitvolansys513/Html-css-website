@@ -1,0 +1,102 @@
+body {
+  background-color: #a5d6a7;
+}
+.container {
+  border: 1px solid black;
+  width: 20%;
+  height: auto;
+  display: flex;
+  background-color: #ffff;
+
+  justify-content: center;
+  margin: auto;
+  margin-top: 8%;
+  /* margin-left: 30%; */
+}
+.loginText {
+  margin-top: 14px;
+  font-size: 20px;
+  margin-left: 120px;
+  width: 120px;
+  font-family: "Montserrat", sans-serif;
+}
+.underline {
+  border: 1px solid #b3e5fc;
+}
+.firstName {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+input[type="text"] {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+input[type="password"] {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+input[type="email"] {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.submitButton {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 20%;
+  box-shadow: 1px 1px 1px 1px grey;
+  border-radius: 5%;
+  font-size: 30px;
+  font-weight: 800;
+}
+.submitButton:hover {
+  background-color: grey;
+}
+.forgotPass {
+  font-size: 20px;
+  margin-left: -7px;
+}
+.userNew {
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  font-size: 20px;
+  color: grey;
+}
+.hr1 {
+  margin-left: -10px;
+  border: 1px solid #40c4ff;
+}
+.horizontalBorder {
+  border-bottom: 1px solid red;
+  padding-bottom: 10px;
+  border-spacing: 55px;
+  border-collapse: separate;
+  border-bottom: 2px solid #40c4ff;
+}
+.signInSystem {
+  position: absolute;
+  left: 41%;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 1px solid red;
+  padding-bottom: 10px;
+  border-spacing: 55px;
+  border-collapse: separate;
+  border-spacing: 15px;
+  border-bottom: 2px solid #40c4ff;
+}
